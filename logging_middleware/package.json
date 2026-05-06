@@ -1,0 +1,17 @@
+{
+  "name": "logging_middleware",
+  "version": "1.0.0",
+  "description": "Reusable logging middleware for the campus notification application.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "node --check src/index.js && node --check scripts/register.js && node --check scripts/auth.js",
+    "register": "node scripts/register.js",
+    "auth": "node scripts/auth.js"
+  },
+  "keywords": [
+    "logging",
+    "middleware"
+  ],
+  "license": "UNLICENSED"
+}

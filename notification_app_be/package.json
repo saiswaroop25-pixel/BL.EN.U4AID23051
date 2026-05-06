@@ -1,0 +1,11 @@
+{
+  "name": "notification_app_be",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "node --check src/server.js"
+  },
+  "dependencies": {}
+}

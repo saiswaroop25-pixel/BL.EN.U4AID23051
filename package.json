@@ -1,0 +1,12 @@
+{
+  "name": "campus-notifications",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix notification_app_fe run dev",
+    "build": "npm --prefix notification_app_fe run build",
+    "register": "npm --prefix logging_middleware run register",
+    "auth": "npm --prefix logging_middleware run auth"
+  }
+}
